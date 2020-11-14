@@ -4,7 +4,6 @@
  */
 
 import winston from 'winston';
-import * as moment from 'moment';
 
 const logger = winston.createLogger({
   transports: [

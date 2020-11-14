@@ -1,4 +1,3 @@
-import mongoose, { connect } from 'mongoose';
-import config from '../config';
+import mongoose from 'mongoose';
 
-export default () => mongoose.connect(config.dbConnectionString);
+export default (dbConnectionString) => mongoose.connect(dbConnectionString);
